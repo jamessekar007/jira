@@ -9,7 +9,7 @@ const userController = new UserController();
 // Route to get all users
 router.get('/', userController.getUsers);
 
-router.post('/', userController.createUser);
+router.post('/signup', userController.createUser);
 
 router.post('/login', userController.loginUser);
 

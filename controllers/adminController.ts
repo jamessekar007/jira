@@ -40,6 +40,7 @@ class AdminController {
         name: name
       },
     });
+    res.status(201).json({ data:project });
   }
 
       // Define the function to create a new user
